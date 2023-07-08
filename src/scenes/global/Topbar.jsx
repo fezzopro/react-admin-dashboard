@@ -1,5 +1,3 @@
-const Topbar = () => {
-  return (<div>Topbar</div>);
-};
+const Topbar = () => (<div>Topbar</div>);
 
 export default Topbar;
