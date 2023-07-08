@@ -1,4 +1,4 @@
-import { tokens } from '../theme.js';
+import { tokens } from '../theme'; // eslint-disable-line
 
 export const mockDataTeam = [
   {
