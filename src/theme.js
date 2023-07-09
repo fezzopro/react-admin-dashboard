@@ -20,14 +20,14 @@ export const tokens = (mode) => ({
         100: '#d0d1d5',
         200: '#a1a4ab',
         300: '#727681',
-        400: '#434957',
+        400: '#1f2a40',
         500: '#141b2d',
         600: '#101624',
         700: '#0c101b',
         800: '#080b12',
         900: '#040509',
       },
-      greenAcent: {
+      greenAccent: {
         100: '#dbf5ee',
         200: '#b7ebde',
         300: '#94e2cd',
@@ -84,7 +84,7 @@ export const tokens = (mode) => ({
         800: '#a1a4ab',
         900: '#d0d1d5',
       },
-      greenAcent: {
+      greenAccent: {
         100: '#0f2922',
         200: '#1e5245',
         300: '#2e7c67',
@@ -134,7 +134,7 @@ export const themeSettings = (mode) => {
             main: colors.primary[500],
           },
           secondary: {
-            main: colors.greenAcent[500],
+            main: colors.greenAccent[500],
           },
           neutral: {
             dark: colors.grey[700],
@@ -150,7 +150,7 @@ export const themeSettings = (mode) => {
             main: colors.primary[100],
           },
           secondary: {
-            main: colors.greenAcent[500],
+            main: colors.greenAccent[500],
           },
           neutral: {
             dark: colors.grey[700],
