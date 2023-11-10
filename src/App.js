@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { ColorModeContext, useMode } from './theme';
+import { Analytics } from '@vercel/analytics/react';
 import Topbar from './scenes/global/Topbar/Topbar';
 import Sidebar from './scenes/global/Sidebar/Sidebar';
 import Dashboard from './scenes/Dashboard';
@@ -40,6 +41,7 @@ function App() {
             </Routes>
           </main>
         </div>
+        <Analytics />
       </ThemeProvider>
     </ColorModeContext.Provider>
   );
