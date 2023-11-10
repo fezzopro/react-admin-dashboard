@@ -53,7 +53,7 @@ const Team = () => {
     <Box m="20px">
       <Header
         title="TEAM"
-        subTitle="Managing Th Team Members"
+        subTitle="Managing The Team Members"
       />
       <Box
         m="40px 0 0 0"
