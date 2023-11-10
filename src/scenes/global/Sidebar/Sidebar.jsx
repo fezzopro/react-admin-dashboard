@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Sidebar as ProSideBar, Menu, MenuItem } from 'react-pro-sidebar';
+import { ProSidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import {
   Box, IconButton, Typography, useTheme,
 } from '@mui/material';
@@ -20,6 +20,7 @@ import PropTypes from 'prop-types';
 import user from '../../../assets/users/user.png';
 import { tokens } from '../../../theme';
 import './sidebar.scss';
+import 'react-pro-sidebar/dist/css/styles.css';
 
 export const Item = ({
   title, to, icon, selected, setSelected,
@@ -67,14 +68,14 @@ const Sidebar = () => {
         },
       }}
     >
-      <ProSideBar collapsed={isCollapse} className="pro-side-bar">
+      <ProSidebar collapsed={isCollapse} className="pro-side-bar">
         <Menu iconShape="square">
           {/* LOGO AND MENU ICON */}
           <MenuItem
             onClick={() => setIsCollapse(!isCollapse)}
             icon={isCollapse ? <MenuOutlinedIcon /> : undefined}
             style={{
-              margin: '10px 0 20px 0',
+              margin: '10px 0',
               color: colors.grey[100],
             }}
           >
@@ -85,7 +86,7 @@ const Sidebar = () => {
                 alignItems="center"
                 ml="15px"
               >
-                <Typography variant="h5" color={colors.grey[100]}>
+                <Typography variant="h3" color={colors.grey[100]}>
                   ADMINS
                 </Typography>
                 <IconButton onClick={() => setIsCollapse(!isCollapse)}>
@@ -103,12 +104,14 @@ const Sidebar = () => {
                   width="100px"
                   height="100px"
                   src={user}
-                  style={{ cursor: 'pointer', borderRadius: '50%' }}
+                  style={{
+                    cursor: 'pointer', borderRadius: '50%', width: '80px', height: '80px',
+                  }}
                 />
               </Box>
               <Box textAlign="center">
                 <Typography
-                  variant="h6"
+                  variant="h3"
                   color={colors.grey[100]}
                   fontWeight="bold"
                   sx={{ m: '10px 0 0 0' }}
@@ -116,7 +119,7 @@ const Sidebar = () => {
                   Felix K.
                 </Typography>
                 <Typography variant="h7" color={colors.greenAccent[500]}>
-                  Fancy Admin
+                  Admin
                 </Typography>
               </Box>
             </Box>
@@ -226,7 +229,7 @@ const Sidebar = () => {
             />
           </Box>
         </Menu>
-      </ProSideBar>
+      </ProSidebar>
 
     </Box>
   );
