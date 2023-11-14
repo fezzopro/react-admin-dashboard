@@ -2,6 +2,12 @@
   "name": "react-admin-dashboard",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --setupFiles=./src/components/__test__/config/setup.js",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -30,12 +36,6 @@
     "sass": "^1.63.6",
     "web-vitals": "^2.1.4",
     "yup": "^1.2.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom --setupFiles=./src/components/__test__/config/setup.js",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
