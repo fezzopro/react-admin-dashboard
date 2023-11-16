@@ -14,7 +14,7 @@ import Form from './scenes/Form';
 // import Pie from './scenes/Pie';
 // import FAQ from './scenes/FAQ';
 // import Geograph from './scenes/Geograph';
-// import Calendar from './scenes/Calendar';
+import Calendar from './scenes/Calendar';
 
 function App() {
   const [theme, coloMode] = useMode();
@@ -36,8 +36,8 @@ function App() {
               <Route path="/pie" element={<Pie />} />
               <Route path="/line" element={<Line />} />
               <Route path="/faq" element={<FAQ />} />
-              <Route path="/geograph" element={<Geograph />} />
-              <Route path="/calendar" element={<Calendar />} /> */}
+              <Route path="/geograph" element={<Geograph />} /> */}
+              <Route path="/calendar" element={<Calendar />} />
             </Routes>
           </main>
         </div>
