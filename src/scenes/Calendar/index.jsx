@@ -61,7 +61,7 @@ const Calendar = () => {
               >
                 <ListItemText
                   primary={event.title}
-                  secondary={
+                  secondary={(
                     <Typography>
                       {formatDate(event.start, {
                         year: 'numeric',
@@ -69,7 +69,7 @@ const Calendar = () => {
                         day: 'numeric',
                       })}
                     </Typography>
-                  }
+                  )}
                 />
               </ListItem>
             ))}
@@ -96,8 +96,20 @@ const Calendar = () => {
             selectMirror
             dayMaxEvents
             select={handleDateClick}
-            handleEventClick={handleEventClick}
+            eventClick={handleEventClick}
             eventsSet={(event) => setCurrentEvent(event)}
+            initialEvents={[
+              {
+                id: 138,
+                title: 'First Event',
+                date: '2023-11-15',
+              },
+              {
+                id: 146,
+                title: 'Second Event',
+                date: '2023-11-15',
+              },
+            ]}
           />
         </Box>
       </Box>
