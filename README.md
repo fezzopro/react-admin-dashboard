@@ -44,9 +44,10 @@
   <summary>Client</summary>
   <ul>
     <li><a href="#">React</a></li>
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">JavaScript</a></li>
+    <li><a href="#">MaterialUI</a></li>
+    <li><a href="#">FullCalendar</a></li>
+    <li><a href="#">Formik</a></li>
+    <li><a href="#">Nivo Graphs</a></li>
   </ul>
 </details>
 
@@ -126,8 +127,6 @@ You can deploy this project using **[Render](https://render.com/)**
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Felix KAMANA (Fezzo)**
 
 - GitHub: [@githubhandle](https://github.com/fezzopro)
@@ -161,12 +160,10 @@ If you like this project please give it a star ⭐️
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+<!-- ## 🙏 Acknowledgments <a name="acknowledgements"></a> -->
 
 
-I would like to thank Microverse Team & Students
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 
