@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { useTheme } from '@mui/material';
 import { tokens } from '../../../theme';
 
-const LineChart = ({ data, isDashbord = false }) => {
+const LineChart = ({ data, isDashboard = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
@@ -43,7 +43,7 @@ const LineChart = ({ data, isDashbord = false }) => {
           },
         },
       }}
-      colors={isDashbord ? { datum: 'color' } : { scheme: 'nivo' }}
+      colors={isDashboard ? { datum: 'color' } : { scheme: 'nivo' }}
       margin={{
         top: 50, right: 110, bottom: 50, left: 60,
       }}
@@ -63,7 +63,7 @@ const LineChart = ({ data, isDashbord = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashbord ? undefined : 'transportation',
+        legend: isDashboard ? undefined : 'transportation',
         legendOffset: 36,
         legendPosition: 'middle',
       }}
@@ -71,7 +71,7 @@ const LineChart = ({ data, isDashbord = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashbord ? undefined : 'count',
+        legend: isDashboard ? undefined : 'count',
         legendOffset: -40,
         legendPosition: 'middle',
       }}
@@ -116,7 +116,7 @@ const LineChart = ({ data, isDashbord = false }) => {
 
 LineChart.propTypes = {
   data: PropTypes.oneOfType(['object']).isRequired,
-  isDashbord: PropTypes.bool.isRequired,
+  isDashboard: PropTypes.bool.isRequired,
 };
 
 export default LineChart;
