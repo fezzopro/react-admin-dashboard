@@ -35,6 +35,8 @@
 
 **[React Dashboard]** is a Dashboard created using React front-end library
 
+![image](https://github.com/fezzopro/react-admin-dashboard/assets/42069952/7375d106-da01-4acc-b485-00e55a45db05)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
