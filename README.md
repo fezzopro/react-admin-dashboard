@@ -45,11 +45,13 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">React</a></li>
-    <li><a href="#">MaterialUI</a></li>
-    <li><a href="#">FullCalendar</a></li>
-    <li><a href="#">Formik</a></li>
-    <li><a href="#">Nivo Graphs</a></li>
+    <li><a href="https://create-react-app.dev/" targer="_blank">React</a></li>
+    <li><a href="https://mui.com/material-ui/getting-started/installation/" targer="_blank">MaterialUI</a></li>
+    <li><a href="https://fullcalendar.io/docs" targer="_blank">FullCalendar</a></li>
+    <li><a href="https://formik.org/docs" targer="_blank">Formik</a></li>
+    <li><a href="https://nivo.rocks/components/" targer="_blank">Nivo Graphs</a></li>
+    <li><a href="https://github.com/azouaoui-med/react-pro-sidebar" targer="_blank">React Pro Sidebar</a></li>
+    <li><a href="https://github.com/jquense/yup" targer="_blank">Yup</a></li>
   </ul>
 </details>
 
