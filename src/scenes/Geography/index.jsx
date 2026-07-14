@@ -4,7 +4,7 @@ import Header from '../../components/Shared/Header/Header';
 import { mockGeographyData as data } from '../../data/mockData';
 import { tokens } from '../../theme';
 
-console.log(GeographyChart);
+// console.log(GeographyChart);
 const Geography = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
