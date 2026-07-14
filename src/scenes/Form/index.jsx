@@ -26,7 +26,7 @@ const userSchema = yup.object().shape({
 
 const Form = () => {
   const isNonMobile = useMediaQuery('(min-width: 600px)');
-
+  /*eslint no-unused-vars: "error"*/
   const handleFormSubmit = (values) => {
     // console.log(values);
   };
