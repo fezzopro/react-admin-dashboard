@@ -21,6 +21,7 @@ const Calendar = () => {
   const [currentEvent, setCurrentEvent] = useState([]);
 
   const handleDateClick = (selected) => {
+    /*eslint no-alert: "error"*/
     const title = prompt('Please Enter a new title for your event');
     const calendarAPI = selected.view.calendar;
     calendarAPI.unselect();
@@ -37,6 +38,7 @@ const Calendar = () => {
   };
 
   const handleEventClick = (selected) => {
+    /*eslint no-alert: "error"*/
     if (window.confirm(`Are you sure you want to delete this event '${selected.event.title}'`)) {
       selected.event.remove();
     }
