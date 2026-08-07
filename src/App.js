@@ -16,6 +16,7 @@ import Pie from './scenes/Pie';
 import FAQ from './scenes/FAQ';
 import Geography from './scenes/Geography';
 import Calendar from './scenes/Calendar';
+import Login from './scenes/Login';
 
 function App() {
   const [theme, coloMode] = useMode();
@@ -39,6 +40,7 @@ function App() {
               <Route path="/geography" element={<Geography />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/calendar" element={<Calendar />} />
+              <Route path="/login" element={<Login />} />
             </Routes>
           </main>
         </div>

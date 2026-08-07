@@ -16,6 +16,7 @@ import PieChartOutlinedIcon from '@mui/icons-material/PieChartOutline';
 import TimeLineOutlinedIcon from '@mui/icons-material/TimelineOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
+import LoginIcon from '@mui/icons-material/Login';
 import PropTypes from 'prop-types';
 import user from '../../../assets/users/user.png';
 import { tokens } from '../../../theme';
@@ -181,6 +182,13 @@ const Sidebar = () => {
               title="Calendar"
               to="/calendar"
               icon={<CalendarTodayOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Login Page"
+              to="/login"
+              icon={<LoginIcon />}
               selected={selected}
               setSelected={setSelected}
             />
