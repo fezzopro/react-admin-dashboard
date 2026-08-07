@@ -1,3 +1,5 @@
+[![Dependabot Updates](https://github.com/fezzopro/react-admin-dashboard/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/fezzopro/react-admin-dashboard/actions/workflows/dependabot/dependabot-updates) [![Linters](https://github.com/fezzopro/react-admin-dashboard/actions/workflows/linters.yml/badge.svg)](https://github.com/fezzopro/react-admin-dashboard/actions/workflows/linters.yml)
+
 <a name="readme-top"></a>
 
 <div align="center">
